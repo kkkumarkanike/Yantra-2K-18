@@ -1,0 +1,47 @@
+
+
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #000033;
+    z-index: 9999;
+    border:0;
+	
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+	border-radius:5px;
+}
+
+.navbar .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: black !important;
+	font-style:bold;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 500px}
+    
+    
+
+	
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height:auto;} 
+	  .footer{height:auto;}
+	  #banner {width:100%;height:auto;}
+	  
+    }
+	
+  
